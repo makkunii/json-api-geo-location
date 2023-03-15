@@ -8,7 +8,7 @@ const app = express();
 
 //Database
 
-mongoose.connect('mongodb+srv://makkunii:^w^Otaku21218@cluster0.afxbh43.mongodb.net/TodoList?retryWrites=true&w=majority');
+mongoose.connect('');
 
 const  db = mongoose.connection;
 
